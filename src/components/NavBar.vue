@@ -1,8 +1,8 @@
 <template>
-    <v-app-bar height="100" color="#688D99" elevation="0" absolute="">
+    <v-app-bar height="100" color="transparent" elevation="0" absolute="" >
         <div class="d-flex justify-space-between flex-row w-100">
             <h3 class="ml-3">
-                Logo
+                <v-img src="../assets/logo.png" width="100" height="100"> </v-img>
             </h3>
                 <v-spacer></v-spacer>
                     <v-btn color="black" v-for="icon in icons" :key="icon" class="pa-2 ma-2" @click="sectionDirect(icon)">
@@ -59,15 +59,12 @@ export default {
 
     /* GAMA DE COLORES PASTEL*/
 
-    --one: #688D99;
-    --two: #E6CAD1;
-    --three: #B3D9E6;
-    --four: #EBE482;
-    --five: #9E9B70;
+    --one: #be8519;
+    --two: #000;
+    --three: #1f5962;
+    --four: #fff;
 }
 
-.v-btn{
-    text-transform: none !important;
-}
+
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <section class="section-1" id="section-1">
-    <h3>Section 1</h3>
+    <v-img src="../assets/logo.png"></v-img>
   </section>
   <section class="section-2" id="section-2">
     <h3>Section 2</h3>
@@ -33,35 +33,23 @@ export default {
 
     /* GAMA DE COLORES PASTEL*/
 
-    --one: #688D99;
-    --two: #E6CAD1;
-    --three: #B3D9E6;
-    --four: #EBE482;
-    --five: #9E9B70;
+    --one: #be8519;
+    --two: #000;
+    --three: #1f5962;
+    --four: #fff;
+
 }
 
 
 
 section {
   height: 100dvh;
-  width: 100dvw
+  width: 100dvw;
+  background-color: #fff;
 }
 
 
-.section-1 {
-  background-color: var(--two);
-}
-.section-2{
-  background-color: var(--three);
-}
 
-.section-3{
-  background-color: var(--four);
-}
-
-.section-4{
-  background-color: var(--five);
-}
 
 
 

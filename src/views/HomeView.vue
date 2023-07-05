@@ -1,7 +1,7 @@
 <template>
   <NavBar/>
   <MainCont />
-  <v-footer height="60" color="#9E9B70">
+  <v-footer height="60" color="#be8519">
     <h3>Footer</h3>
   </v-footer>
 </template>
@@ -23,3 +23,9 @@ export default defineComponent({
   }
 })
 </script>
+
+
+<style>
+
+
+</style>
