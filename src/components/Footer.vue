@@ -1,7 +1,7 @@
 <template>
         <div class="footer">
             <div class="contacto">
-                <v-btn icon="mdi-whatsapp" elevation="0">
+                <v-btn icon="mdi-whatsapp" elevation="0" class="btn-animation">
                 </v-btn>
                 <h3>Contacto:</h3>
                 <p>011- 2639 - 7764</p>
@@ -12,7 +12,7 @@
                 <p>011 - 4957 - 0127 / 011 - 3973 - 0607</p>
             </div>
             <div class="email">
-                <v-btn icon="mdi-gmail" elevation="0">
+                <v-btn icon="mdi-gmail" elevation="0" class="btn-animation">
                 </v-btn>
                 <h3>Email:</h3>
                 <p>sampaolesi.estudiojuridico@gmail.com</p>
@@ -53,5 +53,11 @@ h3, p{
     align-items: center;
     gap: 5px;
 }
+
+.btn-animation:hover{
+    transform: translateY(-2px) translateX(2px);
+    transition: 0.5s ease-out;
+}
+
 
 </style>
