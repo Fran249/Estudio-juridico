@@ -27,10 +27,10 @@ export default {
                 text: 'CONTACTO',
                 redirect: '/contacto'
             },
-            {
+            /*{
                 text: 'NOVEDADES',
                 redirect: '/novedades'
-            },
+            },*/
         ]
     }),
     methods: {

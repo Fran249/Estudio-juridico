@@ -6,8 +6,14 @@
           <h3>{{ card.text }}</h3>
         </v-card-title>
         <v-card-text class="vcard-text">
-          <p>
+          <p >
             {{ card.adress }}
+          </p>
+          <p>
+            {{ card.cp }}
+          </p>
+          <p>
+            {{card.cel}}
           </p>
         </v-card-text>
         <v-card-actions>
@@ -23,7 +29,7 @@
               <input type="text" name="name" placeholder="Nombre">
               <input type="text" name="email" placeholder="Correo Electronico">
               <input type="text" name="asunto" placeholder="Asunto">
-              <input type="text" name="msg" placeholder="Tu mensaje">
+              <input type="text" name="msg" placeholder="Tu mensaje" class="mensaje">
             <div class="w-100 d-flex flex-row justify-center align-center">
               <button class="form-button">
                 <h3>Enviar</h3>
@@ -44,23 +50,33 @@ export default {
     dataCards: [
       {
         text: 'Sede Central',
-        adress: 'Obelisco Suipacha 355, 2 A Ciudad Autónoma de Buenos Aires.  (CP: 1008)',
-        redirect: 'https://goo.gl/maps/qi1CHNHN5ymvFwrdA'
+        adress: 'Suipacha 355, 2 A Ciudad Autónoma de Buenos Aires.   ',
+        redirect: 'https://goo.gl/maps/qi1CHNHN5ymvFwrdA',
+        cp: '(CP: 1008).',
+        cel: 'Cel: 011- 2639 - 7764. Tel. fijo: 011 - 4957 - 0127 / 011 - 3973 - 0607.'
       },
       {
         text: 'Sede Caballito',
-        adress: 'Venezuela 4234 Planta Baja, Ciudad Autónoma de Buenos Aires. (CP: 1424). Tel. fijo: 011 - 4957 - 0127',
+        adress: 'Venezuela 4234 Planta Baja, Ciudad Autónoma de Buenos Aires. ',
         redirect: 'https://goo.gl/maps/7r7uSU2FbGHa14M17',
+        cp: ' (CP: 1424).',
+        cel: 'Tel. fijo: 011 - 4957 - 0127.'
+
       },
       {
         text: 'Sede Floresta',
-        adress: ' Juan Bautista Alberdi 4400 Ciudad Autónoma de Buenos Aires. (CP: 1407). Tel. fijo: Todavía no lo tenemos',
-        redirect: 'https://goo.gl/maps/9o2b644W1T7qHAdN7'
+        adress: ' Juan Bautista Alberdi 4400 Ciudad Autónoma de Buenos Aires. ',
+        redirect: 'https://goo.gl/maps/9o2b644W1T7qHAdN7',
+        cp: '(CP: 1407).'
+
       },
       {
         text: 'Sede Mar del Plata',
-        adress: 'Necochea 3235, 5 B Mar del Plata, Provincia de Buenos Aires. (CP: 7600 ) Cel: 223- 605 - 1233',
-        redirect: 'https://goo.gl/maps/4LxrxeYD2vwek1MY9'
+        adress: 'Necochea 3235, 5 D Mar del Plata, Provincia de Buenos Aires.',
+        redirect: 'https://goo.gl/maps/4LxrxeYD2vwek1MY9',
+        cp: '(CP: 7600 )',
+        cel: 'Cel: 223- 605 - 1233.'
+
       }
 
 
@@ -147,7 +163,8 @@ section {
   height: 100px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
   padding: 10px;
 }
 
@@ -217,6 +234,11 @@ form input::placeholder{
   font: lighter;
 
 }
+
+.mensaje{
+  height: 150px;
+}
+
 input:focus {
   outline: transparent;
  }
