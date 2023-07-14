@@ -48,7 +48,7 @@ section {
 }
 
 .section-1{
-  background-image: url(../assets/Background.png);
+  background-image: url(../assets/background-svg.svg);
   background-size: cover;
   background-position: fixed;
 }

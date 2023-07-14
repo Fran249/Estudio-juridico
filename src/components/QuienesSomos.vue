@@ -5,12 +5,20 @@
     </div>
 
     <h3>Dr. Diego Martin Alvarez Sampaolesi</h3>
+    <p>Abogado titular del estudio.</p>
 
     <p>
-       Ámbito de ejercicio en Capital Federal y el
-      interior del país.
-      Más de 10 años de experiencia
+      Abogado especialista en derecho a la salud, egresado de la Universidad de Buenos Aires en el 2009. Ha desarrollado una vasta experiencia prestando todo tipo de servicios legales relacionados con derecho a la salud, ejerciendo labores en Capital Federal y el interior del país.
     </p>
+    <p>
+      El Estudio Sampaolesi se encuentra conformado por profesionales que con gran expertise en la materia, dan soporte a los clientes de manera intensiva y permanente de forma que se permita dar cobertura a todos los requerimientos de estos.
+    </p>
+
+
+ 
+
+
+
   </section>
 </template>
 
@@ -45,15 +53,15 @@ section {
 }
 
 .circular-div {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  background-color: black;
+  
 }
 
 .circular-img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 3px solid var(--one);
 }
@@ -69,4 +77,6 @@ h3 {
 p{
   font-family: 'Times New Roman';
   color: var(--four);
+  text-align: center;
+  width: 50%;
 }</style>
