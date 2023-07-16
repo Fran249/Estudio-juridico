@@ -48,12 +48,19 @@ section {
 }
 
 .section-1{
+  
   background-image: url(../assets/background-svg.svg);
   background-size: cover;
   background-position: fixed;
 }
 
-
+@media screen and (max-width: 650px) {
+    .section-1{
+      background-image: url(../assets/mobile-svg.svg);
+    background-size: cover;
+    background-position: center;
+    }
+}
 
 
 </style>

@@ -281,4 +281,14 @@ input:focus {
     transform: translateY(0px);
   }
 }
+
+
+@media screen and (max-width: 650px){
+  .warning-text {
+  padding: 50px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;
+}
+}
 </style>

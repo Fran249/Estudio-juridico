@@ -8,14 +8,18 @@
     <p>Abogado titular del estudio.</p>
 
     <p>
-      Abogado especialista en derecho a la salud, egresado de la Universidad de Buenos Aires en el 2009. Ha desarrollado una vasta experiencia prestando todo tipo de servicios legales relacionados con derecho a la salud, ejerciendo labores en Capital Federal y el interior del país.
+      Abogado especialista en derecho a la salud, egresado de la Universidad de Buenos Aires en el 2009. Ha desarrollado
+      una vasta experiencia prestando todo tipo de servicios legales relacionados con derecho a la salud, ejerciendo
+      labores en Capital Federal y el interior del país.
     </p>
     <p>
-      El Estudio Sampaolesi se encuentra conformado por profesionales que con gran expertise en la materia, dan soporte a los clientes de manera intensiva y permanente de forma que se permita dar cobertura a todos los requerimientos de estos.
+      El Estudio Sampaolesi se encuentra conformado por profesionales que con gran expertise en la materia, dan soporte a
+      los clientes de manera intensiva y permanente de forma que se permita dar cobertura a todos los requerimientos de
+      estos.
     </p>
 
 
- 
+
 
 
 
@@ -24,17 +28,18 @@
 
 
 <style scoped>
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 
-    /* GAMA DE COLORES PASTEL*/
+  /* GAMA DE COLORES PASTEL*/
 
-    --one: #be8519;
-    --two: #000;
-    --three: #1f5962;
-    --four: #fff;
+  --one: #be8519;
+  --two: #000;
+  --three: #1f5962;
+  --four: #fff;
 }
+
 @font-face {
   font-family: 'Times New Roman';
   src: url('../assets/fonts/times.ttf');
@@ -56,7 +61,7 @@ section {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  
+
 }
 
 .circular-img {
@@ -71,12 +76,27 @@ h3 {
   color: var(--four);
   font-weight: 120;
 }
-.dr{
+
+.dr {
   color: var(--two);
 }
-p{
+
+p {
   font-family: 'Times New Roman';
   color: var(--four);
   text-align: center;
   width: 50%;
+}
+
+@media screen and (max-width: 650px) {
+  section {
+    height: 100%;
+  }
+
+  h3,
+  p,
+  .circular-div,
+  .circular-img {
+    margin-top: 50px;
+  }
 }</style>

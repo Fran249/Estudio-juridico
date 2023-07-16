@@ -58,6 +58,15 @@ h3, p{
     transform: translateY(-2px) translateX(2px);
     transition: 0.5s ease-out;
 }
-
+@media screen and (max-width: 650px) {
+    .footer{
+        flex-direction: column;
+        height: 150px;
+    }
+    .btn-animation:hover{
+        transform: none;
+        transition: none;
+    }
+}
 
 </style>

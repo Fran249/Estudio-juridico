@@ -109,6 +109,11 @@ h3{
     letter-spacing: 1px;
 }
 
-
+@media screen and (max-width: 650px){
+    .text-container{
+        width: 100%;
+        padding: 50px;
+    }
+}
 
 </style>

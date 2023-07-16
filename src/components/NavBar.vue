@@ -1,11 +1,19 @@
 <template>
-    <div class="navbar">
+    <div class="navbar" >
         <router-link class="mr-10 pb-6" v-for="rout in routerPaths" :key="rout.text" :to="rout.redirect"><h3>{{rout.text}}</h3></router-link>
+      </div>
+      <div class="navbar-mobile">
+        <v-btn  icon="mdi-dots-vertical" style="background-color: transparent; color: white;" elevation="0" @click="navOnOff()">
+            
+        </v-btn>
+       
       </div>
 </template>
 
 
 <script>
+import store from '@/store';
+
 export default {
     name: 'NavBar',
     data: ()=>({
@@ -34,14 +42,12 @@ export default {
         ]
     }),
     methods: {
-        sectionDirect(icon){
-            let hireMe = document.getElementById(`${icon.redirect}`)
-            hireMe.scrollIntoView({
-                behavior: 'smooth'
-            })
-
+        navOnOff(){
+            
+            store.commit('navOnOff', true)
         }
-    }
+        
+    },
 }
 
 
@@ -96,5 +102,22 @@ h3{
     font-weight: 100;
     font-size: 15px;
     letter-spacing: .5px;
+}
+.navbar-mobile{
+    display: none;
+}
+@media screen and (max-width: 650px) {
+    .navbar{
+        display: none;
+    }
+    .navbar-mobile{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 50px ;
+        
+        position: absolute;
+        background-color: transparent;
+    }
 }
 </style>
