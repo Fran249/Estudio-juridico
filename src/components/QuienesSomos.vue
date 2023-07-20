@@ -4,19 +4,21 @@
       <v-img class="circular-img" cover src="../assets/Random.jpg"></v-img>
     </div>
 
-    <h3>Dr. Diego Martin Alvarez Sampaolesi</h3>
-    <p>Abogado titular del estudio.</p>
+    <h3>Dr. Diego Martín Álvarez Sampaolesi</h3>
+    <div class="d-flex flex-column align-center justify-center p-container" style="gap: 35px;">
+      <p>Abogado titular del estudio.</p>
 
-    <p>
-      Abogado especialista en derecho a la salud, egresado de la Universidad de Buenos Aires en el 2009. Ha desarrollado
-      una vasta experiencia prestando todo tipo de servicios legales relacionados con derecho a la salud, ejerciendo
-      labores en Capital Federal y el interior del país.
-    </p>
-    <p>
-      El Estudio Sampaolesi se encuentra conformado por profesionales que con gran expertise en la materia, dan soporte a
-      los clientes de manera intensiva y permanente de forma que se permita dar cobertura a todos los requerimientos de
-      estos.
-    </p>
+      <p>
+        Abogado especialista en Derecho a la Salud, egresado de la Universidad de Buenos Aires en el 2009. Ha desarrollado
+        una vasta experiencia prestando todo tipo de servicios legales relacionados con el Derecho a la Salud, ejerciendo
+        labores en Capital Federal y el interior del país.
+      </p>
+      <p>
+        Conformado por profesionales con gran expertise en la materia, el Estudio Sampaolesi brinda asesoramiento a sus
+        clientes, de manera integral, para lograr una cobertura completa que atienda todas las necesidades de nuestros
+        patrocinados.
+      </p>
+    </div>
 
 
 
@@ -99,4 +101,8 @@ p {
   .circular-img {
     margin-top: 50px;
   }
-}</style>
+  .p-container:nth-child(3){
+    margin-bottom: 100px;
+  }
+}
+</style>

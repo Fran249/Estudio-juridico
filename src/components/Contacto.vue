@@ -29,7 +29,7 @@
               <input type="text" name="name" placeholder="Nombre">
               <input type="text" name="email" placeholder="Correo Electronico">
               <input type="text" name="asunto" placeholder="Asunto">
-              <input type="text" name="msg" placeholder="Tu mensaje" class="mensaje">
+              <textarea placeholder="Tu mensaje" class="mensaje" name="msg" id="" cols="30" rows="10"></textarea>
             <div class="w-100 d-flex flex-row justify-center align-center">
               <button class="form-button">
                 <h3>Enviar</h3>
@@ -215,7 +215,7 @@ form{
   align-items: flex-start;
   padding: 50px;
 }
-form input {
+form input, textarea{
   border: 1px solid var(--one);
   height: 3rem;
   width: 100%;
@@ -225,7 +225,7 @@ form input {
   color: var(--four);
   margin-left: 10px;
 }
-form input::placeholder{
+form input::placeholder, form textarea::placeholder{
   text-align: left;
   padding-left: 10px;
   font-family: 'EB Garamond', serif;
@@ -239,9 +239,13 @@ form input::placeholder{
   height: 150px;
 }
 
-input:focus {
+input:focus , textarea:focus{
   outline: transparent;
  }
+ textarea{
+  resize: none;
+ }
+
 .form-button{
   background-color: transparent;
   border: 1px solid var(--one);

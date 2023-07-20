@@ -40,6 +40,7 @@
     width: 100%;
     height: 10dvh;
     border-top: 1px solid var(--one) ;
+    background-color: #fff;
 }
 h3, p{
     font-family: 'EB Garamond', serif;
