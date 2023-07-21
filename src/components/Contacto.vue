@@ -25,13 +25,13 @@
         <p class="sub-text">Horario de atención: De lunes a viernes de 9:00 hs a 18 hs.
         </p>
         <div class="d-flex flex-column justify-center align-center form-container" style="gap:60px; margin-top: 150px;">
-          <form action="">
+          <form action="https://formsubmit.co/f8d2f4b0e3b0e3368ffa63ecc370dba8" method="POST">
               <input type="text" name="name" placeholder="Nombre">
               <input type="text" name="email" placeholder="Correo Electronico">
-              <input type="text" name="asunto" placeholder="Asunto">
-              <textarea placeholder="Tu mensaje" class="mensaje" name="msg" id="" cols="30" rows="10"></textarea>
+              <input type="text" name="_subject" placeholder="Asunto">
+              <textarea placeholder="Tu mensaje" class="mensaje" name="message" id="" cols="30" rows="10"></textarea>
             <div class="w-100 d-flex flex-row justify-center align-center">
-              <button class="form-button">
+              <button class="form-button" type="submit">
                 <h3>Enviar</h3>
               </button>
             </div>
@@ -140,6 +140,7 @@ export default {
 
 section {
   width: 100dvw;
+  height: 100%;
   padding-top: 200px;
   background-image: url(../assets/contactos-bckg.png);
   background-size: cover;

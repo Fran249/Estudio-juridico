@@ -1,12 +1,11 @@
 <template>
-    <div class="navbar" >
+    <div class="navbar">
         <router-link class="mr-10 pb-6" v-for="rout in routerPaths" :key="rout.text" :to="rout.redirect"><h3>{{rout.text}}</h3></router-link>
       </div>
-      <div class="navbar-mobile">
+      <div class="navbar-mobile" >
         <v-btn  icon="mdi-dots-vertical" style="background-color: transparent; color: white;" elevation="0" @click="navOnOff()">
             
         </v-btn>
-       
       </div>
 </template>
 
@@ -35,10 +34,10 @@ export default {
                 text: 'CONTACTO',
                 redirect: '/contacto'
             },
-            /*{
-                text: 'NOVEDADES',
-                redirect: '/novedades'
-            },*/
+            {
+                text: 'LOGROS',
+                redirect: '/logros'
+            },
         ]
     }),
     methods: {
@@ -115,7 +114,7 @@ h3{
         justify-content: flex-end;
         width: 100%;
         height: 50px ;
-        
+        z-index: 9999;
         position: absolute;
         background-color: transparent;
     }

@@ -95,7 +95,7 @@
 
 
 
-<style scoped>
+<style lang="css" scoped>
 * {
     margin: 0;
     padding: 0;

@@ -6,7 +6,7 @@
               <component :is="Component"></component>
           </Transition>
       </router-view>
-      <Footer/>
+      <Footer />
       <v-navigation-drawer
         style="background-color: transparent; backdrop-filter: blur(15px);"
         v-model="navOnOff"
