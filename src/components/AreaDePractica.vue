@@ -48,19 +48,19 @@
                 inmediatez, una lesión actual e inminente y la arbitrariedad e ilegalidad manifiesta.
             </p>
             <div>
-                <p>
+                <p style="text-decoration: underline; text-decoration-color: #fff;">
                     <strong>A través de esta vía se puede obtener, entre otras cosas:</strong>
                 </p>
-                <li>Cobertura de tratamientos médicos.</li>
-                <li>Cobertura de cirugías.</li>
-                <li>Cobertura de medicamentos.</li>
-                <li>Cobertura de estudios de alta complejidad.</li>
-                <li>Cobertura de internación domiciliaria.</li>
-                <li>Cobertura de internación en instituciones geriátricas.</li>
-                <li>Continuidad en la misma obra social y/o plan superador que se gozaba en actividad, una vez jubilado/a.
+                <li><strong>Cobertura de tratamientos médicos.</strong></li>
+                <li><strong>Cobertura de cirugías.</strong></li>
+                <li><strong>Cobertura de medicamentos.</strong></li>
+                <li><strong>Cobertura de estudios de alta complejidad.</strong></li>
+                <li><strong>Cobertura de internación domiciliaria.</strong></li>
+                <li><strong>Cobertura de internación en instituciones geriátricas.</strong></li>
+                <li><strong>Continuidad en la misma obra social y/o plan superador que se gozaba en actividad, una vez jubilado/a.</strong>
                 </li>
-                <li>Cobertura total de tratamientos médicos para personas con discapacidad, según Ley 24.901.</li>
-                <li>Cobertura de tratamientos de fertilidad.</li>
+                <li><strong>Cobertura total de tratamientos médicos para personas con discapacidad, según Ley 24.901.</strong></li>
+                <li><strong>Cobertura de tratamientos de fertilidad.</strong></li>
             </div>
             <p>
                 <strong>
@@ -126,7 +126,9 @@ export default {
     font-family: 'Times New Roman';
     src: url('../assets/fonts/times.ttf');
 }
-
+li {
+    font-size: bold;
+}
 section {
     width: 100dvw;
     padding-top: 100px;

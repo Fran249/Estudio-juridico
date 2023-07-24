@@ -32,7 +32,7 @@
 
                 <div>
                     <div class="h3-btn-container">
-                        <h3 class="title1 forallh3">
+                        <h3 class="title1 forallh3" style="text-decoration: underline; text-decoration-color: #FFF ;">
                             Mujer con diagnóstico de Diabetes Mellitus Tipo 1.
                         </h3>
                         <v-btn style="color: #fff;" class="btn1" elevation="0" width="50" height="50" icon="mdi-close"
@@ -44,7 +44,7 @@
                                 flash de monitoreo de glucosa). </strong>
                         </h3>
                         <h3 class="subtitle mb-5 mt-5 text-justify forallh3"
-                            style="text-decoration: underline; text-decoration-color: #be8519 ;">
+                            style="text-decoration: underline; text-decoration-color: #FFF ;">
                             Se transcribe parte dispositiva de la medida cautelar:
                         </h3>
                         <p class="text1 forallp">
@@ -74,7 +74,7 @@
 
                 <div>
                     <div class="h3-btn-container">
-                        <h3 class="title1 forallh3">
+                        <h3 class="title1 forallh3" style="text-decoration: underline; text-decoration-color: #FFF ;">
                             Hombre con asimetría facial maxilomandibular.
                         </h3>
                         <v-btn style="color: #fff;" class="btn1" elevation="0" width="50" height="50" icon="mdi-close"
@@ -87,7 +87,7 @@
                             </strong>
                         </h3>
                         <h3 class="subtitle mb-5 mt-5 text-justify forallh3"
-                            style="text-decoration: underline; text-decoration-color: #be8519 ;">
+                        style="text-decoration: underline; text-decoration-color: #FFF ;">
                             <strong>Se transcribe parte pertinente de la medida cautelar:</strong>
                         </h3>
                         <p class="text1 forallp">
@@ -116,7 +116,7 @@
 
                 <div>
                     <div class="h3-btn-container cont-mobile" >
-                        <h3 class="title1 forallh3">
+                        <h3 class="title1 forallh3" style="text-decoration: underline; text-decoration-color: #FFF ;">
                             OSDE s/ AMPARO DE SALUD. CONTINUIDAD EN LA MISMA OBRA SOCIAL Y PREPAGA LUEGO DE OBTENER EL
                             BENEFICIO JUBILATORIO.
                         </h3>
@@ -135,7 +135,7 @@
                             </strong>
                         </h3>
                         <h3 class="subtitle mb-5 mt-5 text-justify forallh3"
-                            style="text-decoration: underline; text-decoration-color: #be8519 ;">
+                        style="text-decoration: underline; text-decoration-color: #FFF ;">
                             <strong>Se transcribe parte dispositiva de la sentencia. Interpretación confirmada por la Cámara
                                 Civil y Comercial Federal - Sala III):</strong>
                         </h3>
@@ -160,7 +160,7 @@
 
                 <div>
                     <div class="h3-btn-container">
-                        <h3 class="title1 forallh3">
+                        <h3 class="title1 forallh3" style="text-decoration: underline; text-decoration-color: #FFF ;">
                             OSECAC S/ AMPARO DE SALUD. COBERTURA TOTAL DE MEDICACIÓN ONCOLÓGICA.
                         </h3>
                         <v-btn style="color: #fff;" class="btn1" elevation="0" width="50" height="50" icon="mdi-close"
@@ -175,7 +175,7 @@
                         </h3>
                         <p class="text1 forallp">
                             <span class="forallh3 subtitle"
-                                style="text-decoration: underline; text-decoration-color: #be8519 ; font-size: 18px ;">Se
+                            style="text-decoration: underline; text-decoration-color: #FFF ; font-size: 18px;">Se
                                 transcribe parte pertinente de la medida cautelar:</span> <span style="font-style: italic;">
                                     “Dispónese que hasta tanto se
                             resuelva la
@@ -298,8 +298,6 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: underline;
-    text-decoration-color: var(--one);
     text-transform: uppercase;
 }
 
