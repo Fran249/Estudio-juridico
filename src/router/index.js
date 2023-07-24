@@ -18,7 +18,7 @@ const router = createRouter({
       component: QuienesSomos,
     },
     {
-      path: '/area-de-practica',
+      path: '/area-practica',
       component: AreaDePractica,
     },
     {

@@ -6,7 +6,7 @@
               <component :is="Component"></component>
           </Transition>
       </router-view>
-      <Footer />
+
       <v-navigation-drawer
         style="background-color: transparent; backdrop-filter: blur(15px);"
         v-model="navOnOff"
@@ -54,10 +54,10 @@ export default {
                 text: 'CONTACTO',
                 redirect: '/contacto'
             },
-            /*{
-                text: 'NOVEDADES',
-                redirect: '/novedades'
-            },*/
+            {
+                text: 'LOGROS',
+                redirect: '/logros'
+            },
         ]
   }),
   computed:{

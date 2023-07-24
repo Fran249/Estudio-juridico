@@ -26,8 +26,8 @@ export default {
                 redirect: '/quienes-somos'
             },
             {
-                text: 'AREA DE PRACTICA',
-                redirect: '/area-de-practica',
+                text: 'ÁREA PRÁCTICA',
+                redirect: '/area-practica',
 
             },
             {
@@ -114,7 +114,6 @@ h3{
         justify-content: flex-end;
         width: 100%;
         height: 50px ;
-        z-index: 9999;
         position: absolute;
         background-color: transparent;
     }

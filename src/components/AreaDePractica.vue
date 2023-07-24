@@ -2,7 +2,7 @@
     <section>
         <div class="text-container">
             <h3 class="title">
-                Amparos de Salud
+                AMPAROS DE SALUD
             </h3>
             <p>
                 Estudio Sampaolesi ofrece a sus clientes servicios de asistencia jurídica en lo que respecta a garantizar la
@@ -22,6 +22,11 @@
                 importancia para poder defenderlos y hacerlos cumplir.
             </p>
             <p>
+                Según la Organización Mundial de la Salud (<strong>OMS</strong>), “La salud es un estado completo de
+                bienestar físico, mental
+                y social, y no solamente la ausencia de afecciones o enfermedades”.
+            </p>
+            <p>
                 El Derecho a la Salud es un derecho humano fundamental. En Argentina, la salud es un derecho reconocido por
                 la Constitución Nacional (Art. 16, Art. 42, Art 75 inc. 23) y por numerosos Tratados Internacionales de
                 Derechos Humanos con jerarquía constitucional, entre los cuales podemos destacar, la Declaración Americana
@@ -30,11 +35,7 @@
                 Art. 1.1); el Pacto Internacional de Derechos Civiles y Políticos (Art. 26); el Pacto Internacional de
                 Derechos Económicos, Sociales y Culturales (Art. 12).
             </p>
-            <p>
-                Según la Organización Mundial de la Salud (<strong>OMS</strong>), “La salud es un estado completo de
-                bienestar físico, mental
-                y social, y no solamente la ausencia de afecciones o enfermedades”.
-            </p>
+
             <p>
                 Por medio de una acción de amparo, se puede proteger el derecho de la salud, logrando una solución rápida y
                 expedita, frente a la falta de cobertura o eficiencia en la prestación del servicio, en relación a la Obra
@@ -48,7 +49,7 @@
             </p>
             <div>
                 <p>
-                    A través de esta vía se puede obtener, entre otras cosas:
+                    <strong>A través de esta vía se puede obtener, entre otras cosas:</strong>
                 </p>
                 <li>Cobertura de tratamientos médicos.</li>
                 <li>Cobertura de cirugías.</li>
@@ -60,15 +61,16 @@
                 </li>
                 <li>Cobertura total de tratamientos médicos para personas con discapacidad, según Ley 24.901.</li>
                 <li>Cobertura de tratamientos de fertilidad.</li>
-                <li>Reintegros por aumentos excesivos de cuota.</li>
             </div>
             <p>
-                En caso de que la Obra Social o Empresa de Medicina Prepaga se niegue o demore en brindar cobertura a tus
-                necesidades médicas, contamos con una herramienta para que dichas instituciones cumplan con sus
-                obligaciones, y de esta manera no se vulnere el derecho a la salud.
+                <strong>
+                    En caso de que la Obra Social o Empresa de Medicina Prepaga se niegue o demore en brindar cobertura a tus
+                    necesidades médicas, contamos con una herramienta para que dichas instituciones cumplan con sus
+                    obligaciones, y de esta manera no se vulnere el derecho a la salud.
+                </strong>
             </p>
         </div>
-        <div class="text-container mt-10">
+        <div class="text-container text2 mt-10">
             <h3 class="title"> ¿ Qué es el <strong>Programa Médico Obligatorio (PMO)</strong>?</h3>
             <p>
                 El <strong>PMO</strong> incluye todas las prestaciones que tu obra social o prepaga tiene que cubrir de
@@ -90,10 +92,22 @@
                 <p>La limitación en la cobertura debe ser entendida como un “piso prestacional”.</p>
             </div>
         </div>
+        <Footer/>
     </section>
 </template>
 
+<script>
+import Footer from '../components/Footer.vue'
 
+export default {
+    components: {
+        Footer
+    },
+    data:()=>({
+
+    }),
+}
+</script>
 
 <style lang="css" scoped>
 * {
@@ -160,6 +174,10 @@ h3 {
     .text-container {
         width: 100%;
         padding: 50px;
+       
+    }
+    .text2{
+        margin-bottom: 200px;
     }
     section{
         background-image: none;

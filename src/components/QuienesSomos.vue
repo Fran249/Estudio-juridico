@@ -24,11 +24,23 @@
 
 
 
-
+    <Footer/>
   </section>
 </template>
 
+ <script>
+  import Footer from '../components/Footer.vue'
 
+export default {
+  components: {
+    Footer
+  },
+  data:()=>({
+    
+  })
+  }
+
+</script>
 <style scoped>
 * {
   margin: 0;
@@ -49,7 +61,7 @@
 
 section {
   width: 100dvw;
-  height: 90dvh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,8 +113,9 @@ p {
   .circular-img {
     margin-top: 50px;
   }
+  
   .p-container:nth-child(3){
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 }
 </style>

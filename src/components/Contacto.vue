@@ -40,12 +40,16 @@
       </div>
     </div>
 
-
+    <Footer/>
   </section>
 </template>
 
 <script>
+import Footer from '../components/Footer.vue'
 export default {
+  components: {
+    Footer
+  },
   data: () => ({
     dataCards: [
       {
@@ -53,7 +57,7 @@ export default {
         adress: 'Suipacha 355, 2 A Ciudad Autónoma de Buenos Aires.   ',
         redirect: 'https://goo.gl/maps/qi1CHNHN5ymvFwrdA',
         cp: '(CP: 1008).',
-        cel: 'Cel: 011- 2639 - 7764. Tel. fijo: 011 - 4957 - 0127 / 011 - 3973 - 0607.'
+        cel: 'Cel: 011- 2639 - 7764.'
       },
       {
         text: 'Sede Caballito',

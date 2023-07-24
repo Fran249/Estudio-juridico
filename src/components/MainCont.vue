@@ -3,15 +3,18 @@
     
     <section class="section-1" id="section-1">
       
+      <Footer/>
     </section>
   </div>
 </template>
 
 <script>
-
+import Footer from '../components/Footer.vue'
 export default {
   name: 'MainCont',
-
+  components :{
+    Footer,
+  },
   data: () => ({
 
   }),
@@ -39,11 +42,11 @@ export default {
 
 
 section {
-  height: 90dvh;
+  height: 100dvh;
   width: 100dvw;
   background-color: #fff;
-  display: grid;
-  place-content: center;
+  display: flex;
+  justify-content: center;
   z-index: 1;
 }
 
