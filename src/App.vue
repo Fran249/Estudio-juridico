@@ -47,7 +47,7 @@ export default {
             },
             {
                 text: 'AREA DE PRACTICA',
-                redirect: '/area-de-practica',
+                redirect: '/area-practica',
 
             },
             {
