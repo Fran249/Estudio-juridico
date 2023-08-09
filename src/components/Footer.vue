@@ -27,7 +27,7 @@ export default {
     }),
     methods: {
         sendWsp(){
-            window.open('https://api.whatsapp.com/send?phone=01126397764')
+            window.open('https://api.whatsapp.com/send?phone=5401126397764')
         },
         sendEmail(){
             window.open('mailto:sampaolesi.estudiojuridico@gmail.com?Subject=Asunto')
