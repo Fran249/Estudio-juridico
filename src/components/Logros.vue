@@ -115,7 +115,7 @@
 
 
                 <div>
-                    <div class="h3-btn-container cont-mobile" >
+                    <div class="h3-btn-container-for-mobile-desk" >
                         <h3 class="title1 forallh3" style="text-decoration: underline; text-decoration-color: #FFF ;">
                             OSDE s/ AMPARO DE SALUD. CONTINUIDAD EN LA MISMA OBRA SOCIAL Y PREPAGA LUEGO DE OBTENER EL
                             BENEFICIO JUBILATORIO.
@@ -253,6 +253,7 @@ export default {
     backdrop-filter: blur(10px);
 }
 
+
 .forallh3 {
     font-family: 'Times New Roman';
     font-weight: lighter;
@@ -291,6 +292,12 @@ export default {
     grid-template-rows: 1 40px;
     margin-top: 200px;
 }
+.h3-btn-container-for-mobile-desk{
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% /3));
+    grid-template-rows: 1 40px;
+    margin-top: 200px;
+}
 
 .title1 {
     grid-row: 1/2;
@@ -318,7 +325,7 @@ export default {
     padding-bottom: 50px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 960px) {
     .section1 {
         height: 100%;
     }
@@ -344,7 +351,22 @@ export default {
         padding: 0% 5% 0% 5%;
 
     }
-    .cont-mobile{
-        margin-top: 600px;
-    }
+
+    .vcard:nth-child(4){
+    margin-bottom: 150px;
+}
+ .forallh3{
+    font-size: 20px;
+    line-height: 25px;
+ }
+ .forallp {
+    font-size: 20px;
+}
+.h3-btn-container{
+    margin-top: 500px;
+}
+.h3-btn-container-for-mobile-desk{
+    margin-top: 800px;
+}
+
 }</style>

@@ -161,10 +161,12 @@ li {
     font-family: 'Times New Roman';
     text-align: justify;
     color: var(--four);
+    font-size: 18px;
 }
 
 h3 {
     font-weight: 120;
+    font-size: 20px;
 }
 
 .title {
@@ -174,7 +176,7 @@ h3 {
 
 @media screen and (max-width: 650px) {
     .text-container {
-        width: 100%;
+        width: 95%;
         padding: 50px;
        
     }

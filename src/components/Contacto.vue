@@ -20,7 +20,7 @@
           <v-btn icon="mdi-google-maps" color="#Fff" @click="redirectFunction(card)" class="v-btn-animation"></v-btn>
         </v-card-actions>
       </v-card>
-      <div class="d-flex flex-column justify-center align-center" style="margin-bottom: 200px;">
+      <div class="d-flex flex-column justify-center align-center" style="margin-bottom: 300px;">
         <h3 class="warning-text">EN TODAS LAS SEDES SE ATIENDE EXCLUSIVAMENTE CON CITA PREVIA</h3>
         <p class="sub-text">Horario de atención: De lunes a viernes de 9:00 hs a 18 hs.
         </p>
@@ -178,6 +178,7 @@ p {
   font-family: 'Times New Roman';
   text-align: justify;
   color: var(--four);
+  font-size: 18px;
 }
 
 h3 {
@@ -292,12 +293,32 @@ input:focus , textarea:focus{
 }
 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 960px){
+  h3, p {
+    font-size: 20px;
+  }
   .warning-text {
   padding: 50px;
   text-align: center;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 20px;
+}
+.sub-text{
+  font-size: 20px;
+  margin: 10px;
+}
+form input::placeholder, form textarea::placeholder{
+
+  font-size:20px;
+
+
+}
+.form-button h3{
+  font-size: 22px;
+
+}
+form {
+  
 }
 }
 </style>

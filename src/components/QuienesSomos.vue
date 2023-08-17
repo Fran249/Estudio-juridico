@@ -4,7 +4,7 @@
       <v-img class="circular-img" cover src="../assets/Random.jpg"></v-img>
     </div>
 
-    <h3>Dr. Diego Martín Álvarez Sampaolesi</h3>
+    <h3>Dr. Diego Martín Alvarez Sampaolesi</h3>
     <div class="d-flex flex-column align-center justify-center p-container" style="gap: 35px;">
       <p>Abogado titular del estudio.</p>
 
@@ -85,10 +85,11 @@ section {
   border: 3px solid var(--one);
 }
 
-h3 {
+ h3 {
   font-family: 'Times New Roman';
   color: var(--four);
   font-weight: 120;
+  font-size: 18px;
 }
 
 .dr {
@@ -100,6 +101,7 @@ p {
   color: var(--four);
   text-align: center;
   width: 50%;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 650px) {
@@ -115,7 +117,8 @@ p {
   }
   
   .p-container:nth-child(3){
-    margin-bottom: 200px;
+    margin-bottom: 250px;
   }
+  
 }
 </style>

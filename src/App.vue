@@ -160,6 +160,17 @@ a:hover , a.router-link-active{
   opacity: 0;
 }
 
+@media screen and (max-width: 650px) {
+
+  h3{
+
+   font-size: 18px;
+
+}
+
+  
+
+}
 </style>
 
 
