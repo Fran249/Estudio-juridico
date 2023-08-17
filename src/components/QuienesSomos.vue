@@ -104,7 +104,7 @@ p {
   font-size: 18px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 960px) {
   section {
     height: 100%;
   }

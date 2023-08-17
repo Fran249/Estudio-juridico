@@ -174,7 +174,7 @@ h3 {
     letter-spacing: 1px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 960px) {
     .text-container {
         width: 95%;
         padding: 50px;

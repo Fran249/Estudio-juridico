@@ -57,7 +57,7 @@ section {
   background-position: 50%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 960px) {
     .section-1{
       background-image: url(../assets/mobile-svg.svg);
     background-size: cover;

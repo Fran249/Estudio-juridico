@@ -105,7 +105,7 @@ h3{
 .navbar-mobile{
     display: none;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 960px) {
     .navbar{
         display: none;
     }
