@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="circular-div">
-      <v-img class="circular-img" cover src="../assets/Random.jpg"></v-img>
+      <v-img class="circular-img" cover src="../assets/Diego.jpeg"></v-img>
     </div>
 
     <h3>Dr. Diego Martín Alvarez Sampaolesi</h3>
